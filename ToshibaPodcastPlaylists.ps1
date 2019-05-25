@@ -1,6 +1,6 @@
 ############################################################
 
-#iTunes Powershell Interface:
+# iTunes Powershell Interface:
 # http://www.joshkunz.com/iTunesControl/interfaceIiTunes.html
 
 ############################################################
@@ -41,6 +41,5 @@ foreach ($podcast in $podcast_tracks) {
     if (!($playlist_exists)) {
         $test_playlist = $itunes.CreatePlaylistInSource($podcast.Name, $ipod)
         $test_playlist.AddTrack($podcast)
-        #$test_playlist.AddTrack
     }
 }
