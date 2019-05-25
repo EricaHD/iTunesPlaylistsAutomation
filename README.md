@@ -2,7 +2,7 @@
 
 Powershell script creates one playlist for each podcast on a device's podcast list.  Each playlist contains exactly one podcast, and the playlist shares its name with the podcast episode inside it.
 
-#### Why would anybody want that?
+### Why would anybody want that?
 
 Well, it's my mom.  She's kinda nuts.
 
@@ -14,7 +14,7 @@ But my mom is not the most technologically advanced, you see.  It's tough for he
 
 Yes, that makes for a lot of playlists, each containing only one item.  So in addition, every time the device syncs with the 10 most recent episodes, it deletes all the old playlists and makes 10 new ones.  Not the most efficient, but there you have it.
 
-#### Usage & Usefulness
+### Usage & Usefulness
 
 The Lenovo version is both more recent and more robust, so feel free to take a look at that.
 
